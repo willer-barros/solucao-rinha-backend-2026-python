@@ -1,0 +1,9 @@
+data/*.bin
+data/*.index
+data/*.json
+data/*.json.gz
+
+.dockerignore
+__pycache__/
+*.pyc
+.DS_Store
