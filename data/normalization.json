@@ -1,9 +1,0 @@
-{
-  "max_amount": 10000.0,
-  "max_installments": 12,
-  "amount_vs_avg_ratio": 5.0,
-  "max_minutes": 1440,
-  "max_km": 500,
-  "max_tx_count_24h": 50,
-  "max_merchant_avg_amount": 20000.0
-}
