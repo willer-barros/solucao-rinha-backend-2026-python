@@ -22,7 +22,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: rinha-api-base:latest
-    container_name: api_instance_1
+    container_name: api1
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 2
     networks:
       - rinha-network
@@ -34,7 +34,7 @@ services:
 
   api2:
     image: rinha-api-base:latest
-    container_name: api_instance_2
+    container_name: api2
     depends_on:
       - api1
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 2
